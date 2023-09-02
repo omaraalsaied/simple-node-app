@@ -71,6 +71,6 @@ const server = http.createServer((req, res) => {
     }        
     });
 
-server.listen(8000, '127.0.0.1', () => {
-    console.log('server up & running on port 8000');
+server.listen(3000, '0.0.0.0', () => {
+    console.log('server up & running on port 3000');
 })
